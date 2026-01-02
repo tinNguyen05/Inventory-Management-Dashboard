@@ -108,8 +108,8 @@ const CardSalesSummary = () => {
                   axisLine={false}
                 />
                 <Tooltip
-                  formatter={(value: number) => [
-                    `$${value.toLocaleString("en")}`,
+                  formatter={(value: number | undefined) => [
+                    `$${value?.toLocaleString("en") ?? "0"}`,
                   ]}
                   labelFormatter={(label) => {
                     const date = new Date(label);
