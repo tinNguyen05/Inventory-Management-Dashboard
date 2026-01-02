@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Giữ nguyên các phần custom của bạn ở dưới này */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  html, body, #root, .app {
+    height: 100%;
+    width: 100%;
+    @apply text-sm bg-gray-50 text-gray-900;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, 20vh);
+  }
+}
