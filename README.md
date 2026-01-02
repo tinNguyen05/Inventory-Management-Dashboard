@@ -15,3 +15,14 @@
 - **AWS Amplify**
 - **AWS S3**
 
+# Deployment & Cloud Architecture
+
+Dự án được triển khai trên hạ tầng AWS với kiến trúc tối ưu cho hiệu suất và bảo mật:
+
+- **Frontend:** Hosted on **AWS Amplify** (Continuous Deployment).
+- **Backend:** Node.js/Express server on **AWS EC2** instance.
+- **Database:** **AWS RDS (PostgreSQL/MySQL)** managed service with Prisma ORM.
+- **API Management:** **AWS API Gateway** for routing and security.
+- **File Storage:** **AWS S3** for inventory images.
+- **Networking:** Configured **VPC, Security Groups** to restrict unauthorized access to the database.
+
