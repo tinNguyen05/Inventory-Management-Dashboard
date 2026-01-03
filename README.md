@@ -17,6 +17,8 @@
 
 # Deployment & Cloud Architecture
 
+![AWS-Diagram](https://github.com/tinNguyen05/Inventory-Management-Dashboard/blob/main/AWS-Diagram/Screenshot%202026-01-03%20105701.png)
+
 - **Frontend:** Hosted on **AWS Amplify** (Continuous Deployment).
 - **Backend:** Node.js/Express server on **AWS EC2** instance.
 - **Database:** **AWS RDS (PostgreSQL/MySQL)** managed service with Prisma ORM.
