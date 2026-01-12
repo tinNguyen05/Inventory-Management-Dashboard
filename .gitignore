@@ -5,3 +5,10 @@ server/dist/
 client/.env/
 server/.env/
 client/.next/
+.terraform/
+
+*.tfstate
+
+*.tfstate.backup
+
+terraform.tfvars
